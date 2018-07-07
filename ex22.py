@@ -1,7 +1,7 @@
 # Summary of terms learnt from lessons 1 - 21
 
 1. print "" # prints a string in speech marks, can us single or double
-2. # #allows you to comment a code, this is not run in the script
+2. # allows you to comment a code, this is not run in the script
 3. float() # designate a number as being able to have decimal points
 4. cars = 7 # this is a variable, when put into print it will print the variable
             # value which is assigned to it
@@ -9,14 +9,14 @@
 5. # printing variables
 my_name = 'Mike'
 print "Let's talk about %s." % my_name
-# Above I have assined the variable my_name a value, then put it into a string
+# Above I have assigned the variable my_name a value, then put it into a string
 # Its place is denoted by %s which points to the # variable name outside the string
 6. %d = number, %s = string %r = displays raw data, also used in debugging
 7. hilarious = True , hilarious = False #(Example of Boolean Values i.e. 1 or 0
 # true of false)
-8. print """ #Can be used to print a long string over multiple lines and then
-closed again using """ without have to type print "" everyline
-9. print "\n" #Put at start or end of print to print on a new line
+8. print """ Can be used to print a long string over multiple lines and then
+closed again using """ # without have to type print "" everyline
+9. print "\n" #Put at start or end of "" in print to print on a new line
 10. print "\t*" #Prints Tabbed in like>      this
 11. print "How old are you?"
 age = raw input()
@@ -25,7 +25,7 @@ age = raw input()
 # This is how we print multiple variable Values
 13. from sys import argv # from a library (sys) we are importing a variable/module
 # (argv) stands for argument variable
-14. script, user_name = argv # Here we are asking to 2 items or information
+14. script, user_name = argv # Here we are asking for 2 items or information
 # to be inputted prior to running the programme in terminal
 # i.e. we would say python ex22.py (script) Mike (name being used in script)
 15. prompt = '> ' # when asking a user for raw input, you would ask for a prompt
@@ -46,4 +46,13 @@ txt = open(filename) # the above is assigning variables to argv, which means
 # statement is a file exists that we are calling
 24. script, from_file, to_file = argv # we assign 3 values to the variables
 # as this is part of a script to write text from one file to another
-< Chapter 17> 
+25. Functions
+# Do 3 things
+# 1. Name pieces of code the way variables name strings and numbers
+# 2. They take arguments i.e. argv
+# 3. They let you make mini-scripts and commands
+# Example : def print_two(*args):
+                arg1, arg2 = arguments
+                print "arg1: %r, arg2: %r" % (arg1, arg2)
+# So we have defined our function name, paramteters and variables to be fed
+# Then we just define the 2 argument values of print_two
